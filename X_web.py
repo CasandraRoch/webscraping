@@ -103,10 +103,7 @@ print("Ruta completa del archivo tweets.xlsx:", ruta_completa)
 
 
 
-params = urllib.parse.quote_plus("DRIVER={SQL Server};SERVER=LAPTOP-KR77677J\SQLEXPRESS;DATABASE=TAREA_DOS;UID=sa;PWD=Casycas340248346!")
-engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % params)
 
-df.to_sql('tweeter', engine, if_exists='replace', index=False)
 
 
 
