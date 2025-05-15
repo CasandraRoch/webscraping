@@ -26,7 +26,7 @@ time.sleep(10)
 
 user = "************"
 password= "***********"
-username= "@peerico34"
+username= "************"
 input_user=browser.find_element(By.XPATH,'//input[@name="text"]')
 input_user.send_keys(user)
 input_user.send_keys(Keys.ENTER)
