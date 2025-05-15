@@ -24,8 +24,8 @@ time.sleep(10)
 
 #browser.implicitly_wait(10)
 
-user = "ec.roch11@gmail.com"
-password= "340248346"
+user = "************"
+password= "***********"
 username= "@peerico34"
 input_user=browser.find_element(By.XPATH,'//input[@name="text"]')
 input_user.send_keys(user)
